@@ -4,13 +4,13 @@ pyautogui.FAILSAFE = True
 
 #posicoes
 
-#nova aba = x=324, y=891
-#criar visualizacoes = x=74, y=126
-#quantidade de divisao = x=125, y=822
-#16 visualizações = x=169, y=611
-#segunda tela = x=-1184, y=239
-#nova aba = x=295, y=22
-#funcoes
+# nova aba = x=324, y=891
+# criar visualizacoes = x=74, y=126
+# quantidade de divisao = x=125, y=822
+# 16 visualizações = x=169, y=611
+# segunda tela = x=-1184, y=239
+# nova aba = x=295, y=22
+# funcoes
 def abrir_sim_next():
     pyautogui.hotkey('f8')
     time.sleep (13)
@@ -32,7 +32,7 @@ def criar_visualização_16_next():#Criar 3 visualizações em 3 telas das TVs
     time.sleep(0.2)
 
 abrir_sim_next()
-criar_visualização_16_next()
+#criar_visualização_16_next()
 
 #pyautogui.click(x=73, y=129, clicks=1, button='left')sim next
 # COLOCAR CLIQUE DA VISUALIZACAO
